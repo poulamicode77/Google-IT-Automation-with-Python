@@ -37,3 +37,22 @@ Remember that 0 is also a multiple of 7.
 
 Ans--> for i in range(0, 101, 7):
           print(i)
+
+6.
+Question 6
+Which of these options would output just the vowels from the following string? Select all that apply.
+input = "Four score and seven years ago"
+
+Ans--> 1) for c in input:
+            if c.lower() in ['a', 'e', 'i', 'o', 'u']:
+              print(c)
+
+2) print([c for c in input if c.lower() in ['a', 'e', 'i', 'o', 'u']])
+
+7.
+Question 7
+Which of these statements is true about slicing strings?
+
+Ans--> 
+If the starting index is negative, Python counts backward from the end of the string.
+
